@@ -5,8 +5,6 @@ import './App.css'
 import WhiteboardCanvas from './components/WhiteboardCanvas'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
       <WhiteboardCanvas />
